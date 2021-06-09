@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Login page</title>
+</head>
+<body>
+<input id="user" type="text" placeholder="Username">
+<br>
+<input id="pass" type="password" placeholder="password">
+<br>
+<input  type="submit" onclick="login()" >
+</body>
+</html>
+
+<script>
+function login()
+{
+     var user = document.getElementById("user").value;
+     var pass = document.getElementById("pass").value;
+
+if(user=="Darshan" && pass=="766640")
+{
+    alert("Login successful. Welcome "+ user);
+}
+else{
+alert("Username or password is wrong!..");
+
+}
+
+}
+
+</script>
